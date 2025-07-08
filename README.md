@@ -12,7 +12,7 @@ This project implements an autonomous vehicle lane change system with comprehens
 
 ### Compiling everything
 ```bash
-java -d out ./*/*.java
+java -d out ./src/*.java
 ```
 
 ### Starting the system
@@ -47,7 +47,7 @@ Should connect to the monitor and start sending heartbeats:
 #### Terminal 3 - Optional test emitter
 ```bash
 cd out
-java -cp . main.EmitterMain
+java main.EmitterMain
 ```
 
 This just sends test data to see if the monitoring works.
