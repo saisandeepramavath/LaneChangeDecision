@@ -6,7 +6,7 @@ This project implements an autonomous vehicle lane change system with comprehens
 ## How to run it
 
 ### What you need
-- Java (I used Java 11 but newer versions should work)
+- Java (Java 11+)
 - A terminal
 - Probably want multiple terminal windows open
 
